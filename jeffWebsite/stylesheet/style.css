@@ -47,7 +47,7 @@ img:hover {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 11px;
   text-decoration: none;
 }
 
@@ -70,9 +70,13 @@ img:hover {
     width: 160%
   }
 
+p {
+  font-size: 130%;
+}
 
   body {
     background-color: lightblue;
+
   }
 }
 
@@ -126,12 +130,20 @@ background-color: bisque}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   body {background: green;}
+  p {
+    font-size: 130%;
+  }
     header {background: gray; color:white; text-align: center; padding:5%; font-size: 140%; }
-}
+  }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   body {background: blue;}
+  p {
+    font-size: 140%;
+    color: white;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
